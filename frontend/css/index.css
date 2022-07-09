@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(155, 155, 155);        
+}
+
+
+#screen{
+    background-color: white;
+    border: 1px solid;
+    height: 90vh;  
+    width: 500px;      
+    margin-left: 10px;
+}
+
+.elem{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    
+    
+}
+
+.rocket{
+    background-image: url('../assets/img/foguete.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 50px;
+    position: absolute;    
+    bottom: 100px;   
+    left: 250px;
+    border: 1px solid;
+}
